@@ -1,0 +1,36 @@
+{
+  "name" : "nessrinehafi/HelloWorldModule",
+  "description" : "Test Magento module", 
+  "keywords": [
+  "magento 2",
+  "magento",
+  "magento-extension",
+  "composer"
+  ],
+    "require": {
+    "php": ">=7.4.0",
+    "composer-plugin-api": "^1.1",
+    "magento/framework":"100.0.*|100.1.*|101.0.*|103.0.*"
+  },
+    "type": "magento2-module",
+    "version": "2.1.0",
+    "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "nessrine hafi",
+      "email": "nessrine.hafi@esprit.tn",
+      "role": "Intern"
+    },
+    
+   "autoload" : {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Mage\\HelloWorld\\": ""
+    }
+  }
+
+
+}
